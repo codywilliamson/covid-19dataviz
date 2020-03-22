@@ -4,7 +4,9 @@ module.exports = {
     description: `Website analyzing COVID's impact on the United States`,
     author: `@codywilliamson`,
   },
+  pathPrefix: '/',
   plugins: [
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -15,6 +17,17 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,    // prefetching lato google font to reduce external stylesheet dependencies
+      options: {
+        fonts: [
+          {
+            family: `Nunito`,
+            variants: [`300`, `400`, `700`]
+          },
+        ],
+      },
+    },
     // {
     //   resolve: `gatsby-plugin-manifest`,
     //   options: {

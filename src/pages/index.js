@@ -1,6 +1,6 @@
 import React from 'react'
 import covid from 'novelcovid'
-
+import Layout from '../components/Layout'
 
 
 
@@ -19,9 +19,9 @@ const Home = () => {
 
     
     return (
-        <div>
-            test page
-        </div>
+        <Layout>
+            
+        </Layout>
     )
 }
 

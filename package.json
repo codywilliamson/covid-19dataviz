@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "chart.js": "^2.9.3",
     "gatsby": "^2.20.2",
     "gatsby-image": "^2.3.0",
     "gatsby-plugin-manifest": "^2.3.1",
@@ -41,7 +42,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/codywilliamson/covid-19dataviz"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
